@@ -21,7 +21,7 @@ h1{
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 5%;
 }
 
 .nav-item{
@@ -44,6 +44,7 @@ h1{
   width:50%;
   transform: rotate(25deg);
   position: absolute;
+  right: 25%;
 }
 
 h3{
@@ -102,4 +103,16 @@ P{
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+
+@media (max-width: 1028px) {
+  .ttle-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
 }
