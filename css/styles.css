@@ -17,7 +17,7 @@ h1{
   font-weight: bold;
 }
 .navbar{
-  padding-bottom: 0 0 4rem;
+  padding: 0 0 4rem;
 }
 
 .container-fluid{
@@ -32,4 +32,74 @@ h1{
 .nav-link{
   font-size: 1.5rem;
   font-family: "Montserrat-light";
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.ttle-image {
+  width:50%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+h3{
+  font-family: "Montserrat-bold";
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+P{
+  color: #8F8F8F;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+.fa-color{
+  color: #ef8172;
+  margin-bottom: 1rem;
+  padding: 7% 15%;
+}
+.fa-color:hover{
+  color: #ff4c68
+}
+
+#features{
+  background-color: #fff;
+  position: relative;
+
+
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
 }
